@@ -1,0 +1,40 @@
+{
+  "name": "vanilla-node-http-server",
+  "version": "0.1.0",
+  "description": "simple server that does some minor things.",
+  "main": "./lib/server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "babel src -w -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkeyFeathers/vanilla-node-http-server.git"
+  },
+  "keywords": [
+    "server",
+    "vanilla",
+    "javascript"
+  ],
+  "author": "Javier Quiroz <javier.s.quiroz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monkeyFeathers/vanilla-node-http-server/issues"
+  },
+  "homepage": "https://github.com/monkeyFeathers/vanilla-node-http-server#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.0.15",
+    "chai": "^3.4.0",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^1.12.0",
+    "gulp-mocha": "^2.1.3",
+    "jshint-stylish": "^2.0.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
